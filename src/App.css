@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #def5f5;
+}
+
+header {
+  display: flex;
+  justify-content: center; /* Center the navbar horizontally */
+  align-items: center; /* Center the navbar vertically */
+  height: 5rem;
+  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Puts space between h1 and div */
+  align-items: center; /* Centers items vertically */
+  width: 90%; /* Ensure it takes up the full width */
+  max-width: 1230px; /* Prevents it from stretching too much on big screens */
+}
+
+.moon-icon {
+  padding-right: .5em;
+}
+
+.search-filter-layer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.search-input input {
+    width: 53vh;
+    padding: .6em 5em;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 3em 3em;
+}
+
+.search-input input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.search-icon {
+  position: relative;
+  left: 5.5em;
+}
+
+.filter-region select {
+  width: 200px;
+  padding: 10px;
+  margin-right: 6em;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.filter-region select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.card-1 {
+  width: 45vh;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+.card-image img {
+  width: -webkit-fill-available;
+  height: 11em;
+}
+
+.card-text {
+  margin: 30px 0px 20px 30px;
+}
+
+.Card-Display {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 38px 0px;
+}
